@@ -76,3 +76,11 @@ Para el correcto funcionamiento, el servidor MySQL debe contar con la base de da
    ```python
    URL_ESP32 = "http://<IP_DE_TU_ESP32>"
    
+### 3. Dependencias del Software
+
+El ecosistema principal está desarrollado en **Python 3**. Asegúrate de tenerlo instalado en tu sistema antes de continuar.
+
+Para instalar todas las librerías necesarias de una sola vez, abre tu terminal o símbolo del sistema y ejecuta el siguiente comando:
+
+```bash
+pip install torch torchvision opencv-python numpy pillow mysql-connector-python streamlit pandas plotly
